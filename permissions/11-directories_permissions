@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R u+X,go+X,o+X /.
+find /. -type d -exec chmod a+x /. +
