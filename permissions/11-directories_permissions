@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+xX 11-directories_permissions
+chmod a+x $(find /11-directories_permissions -type d)
